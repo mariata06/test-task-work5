@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.min.css" />
+
+    <title>Test Work5</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-sm-4 col-md-3 col-lg-3">
+          <div class="logo">
+            <img src="img/logo-work5.png" alt="Лого Work5" width="82" height="32">
+          </div>
+        </div>
+        <div class="col-12 col-sm-8 col-md-9 col-lg-9">
+          <header class="header d-flex justify-content-between align-items-start pt-3 pb-3">
+            <ul class="breadcrumbs d-flex align-items-center mb-2" aria-label="breadcrumb">
+              <li class="breadcrumbs__item">
+                <a href="#">Главная
+                  <svg width="7" height="5">
+                    <use xlink:href="img/sprite.svg#icon-arrow-right"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="breadcrumbs__item">
+                <a href="#">Мои магазины</a>
+              </li>
+            </ul>
+            <div class="useraccount d-flex justify-content-between">
+              <div class="useraccount__message rounded-lg border position-relative">
+                <a class="useraccount__message-link d-flex position-absolute" href="#">
+                  <svg width="22" height="18">
+                    <use xlink:href="img/sprite.svg#icon-message"></use>
+                  </svg>
+                  <span class="useraccount__message-status is-active position-absolute rounded-circle"></span>
+                </a>
+              </div>
+              <div class="useraccount__container rounded-lg d-flex align-items-center">
+                  <img class="useraccount__photo rounded-circle" src="img/userphoto.png" alt="фото Пользователя">
+                  <span class="useraccount__name">Максим Добжанский</span>
+              </div>
+            </div>
+          </header>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-sm-4 col-md-3 col-lg-3">
+          <div class="menu">
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link d-flex align-items-center" href="#">
+                  <svg width="22" height="18">
+                  <use xlink:href="img/sprite.svg#icon-house"></use>
+                </svg>
+                  Главная</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link d-flex align-items-center active" href="#">
+                  <svg width="21" height="19">
+                    <use xlink:href="img/sprite.svg#icon-cart"></use>
+                  </svg>
+                  Мои магазины</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link d-flex align-items-center" href="#">
+                  <svg width="21" height="18">
+                  <use xlink:href="img/sprite.svg#icon-megafon"></use>
+                </svg>
+                  Промоматериалы</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link d-flex align-items-center" href="#">
+                  <svg width="21" height="21">
+                    <use xlink:href="img/sprite.svg#icon-diagram"></use>
+                  </svg>
+                  Статистика
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link d-flex align-items-center" href="#">
+                  <svg width="21" height="18">
+                    <use xlink:href="img/sprite.svg#icon-wallet"></use>
+                  </svg>
+                  Баланс
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link d-flex align-items-center" href="#">
+                  <svg width="21" height="18">
+                  <use xlink:href="img/sprite.svg#icon-avatar"></use>
+                </svg>
+                  Персональные данные</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link d-flex align-items-center" href="#">
+                  <svg width="21" height="21">
+                  <use xlink:href="img/sprite.svg#icon-faq"></use>
+                </svg>
+                  FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link d-flex align-items-center" href="#">
+                  <svg width="21" height="21">
+                  <use xlink:href="img/sprite.svg#icon-headphone"></use>
+                </svg>
+                  Техподдержка</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link d-flex align-items-center" href="#">
+                  <svg width="21" height="19">
+                  <use xlink:href="img/sprite.svg#icon-logout"></use>
+                </svg>
+                  Выход</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12 col-sm-8 col-md-9 col-lg-8">
+          <div class="title">
+            <button type="button" class="btn btn-success btn--green border-0 d-flex align-items-center" data-toggle="modal" data-target="#exampleModal">
+              <span>+</span>
+              Создать свой магазин
+            </button>
+            <h1 class="pt-3 pb-3 text-left">Управление магазинами</h1>
+          </div>
+
+          <div class="pt-2 pl-2 pb-2 pr-2 shadow bg-white rounded">
+            <table class="table">
+            <thead>
+              <tr>
+                <th class="border-top-0 border-bottom-0" scope="col">№</th>
+                <th class="border-top-0 border-bottom-0" scope="col">Название</th>
+                <th class="border-top-0 border-bottom-0" scope="col">Адрес</th>
+                <th class="border-top-0 border-bottom-0" scope="col">Действие</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td data-label="№" class="border-top-0" scope="row">12345</td>
+                <td data-label="Название" class="border-top-0">Дипломная работа</td>
+                <td data-label="Адрес" class="border-top-0">
+                  <a href="http://www.work5.ru/services">http://www.work5.ru/services</a>
+                </td>
+                <td data-label="Действие" class="d-flex border-top-0 flex-wrap">
+                  <button type="button" class="btn btn-success btn--green mr-2 mb-2 border-0 d-flex align-items-center">
+                    <svg width="15" height="18">
+                      <use xlink:href="img/sprite.svg#icon-edit"></use>
+                    </svg>
+                    Редактировать
+                  </button>
+                  <button type="button" class="btn btn-secondary btn--grey mr-2 mb-2 border-0 d-flex align-items-center">
+                    <svg width="13" height="14">
+                      <use xlink:href="img/sprite.svg#icon-cancel"></use>
+                    </svg>
+                    Редактировать
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td data-label="№" scope="row">12345</td>
+                <td data-label="Название">Дипломная работа</td>
+                <td data-label="Адрес">
+                  <a href="http://www.work5.ru/services">http://www.work5.ru/services</a>
+                </td>
+                <td data-label="Действие" class="d-flex flex-wrap">
+                  <button type="button" class="btn btn-success btn--green mr-2 mb-2 border-0 d-flex align-items-center">
+                    <svg width="15" height="18">
+                      <use xlink:href="img/sprite.svg#icon-edit"></use>
+                    </svg>
+                    Редактировать
+                  </button>
+                  <button type="button" class="btn btn-secondary btn--grey mr-2 mb-2 border-0 d-flex align-items-center">
+                    <svg width="13" height="14">
+                      <use xlink:href="img/sprite.svg#icon-cancel"></use>
+                    </svg>
+                    Редактировать
+                  </button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          </div>
+        </div>
+        <div class="col-sm-0 col-md-0 col-lg-1"></div>
+      </div>
+
+      <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-backdrop="true">
+            <div class="modal-dialog">
+              <div class="modal-content border-0 shadow bg-white rounded">
+                <div class="modal-header border-bottom-0 pt-4 pl-4 pr-4">
+                  <h5 class="modal-title" id="exampleModalLabel">Создать магазин</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <svg aria-hidden="true" width="17" height="17" fill="none">
+                      <use xlink:href="img/sprite.svg#icon-close"></use>
+                    </svg>
+                  </button>
+                </div>
+                <div class="modal-body pl-4 pr-4">
+                  <form>
+                    <div class="d-flex justify-content-between flex-wrap">
+                      <div class="form-group">
+                      <label for="exampleFormControlSelect1">Шаблон</label>
+                      <select class="form-control" id="exampleFormControlSelect1">
+                        <option>Стандартный</option>
+                        <option>Простой</option>
+                        <option>Минималистичный</option>
+                        <option>Сложный</option>
+                        <option>Универсальный</option>
+                      </select>
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleFormControlSelect2">Цветовая схема</label>
+                        <select class="form-control" id="exampleFormControlSelect2">
+                          <option>Классическая</option>
+                          <option>Треугольная</option>
+                          <option>Прямоугольная</option>
+                          <option>Квадратная</option>
+                          <option>Монохромная</option>
+                          <option>Ахроматическая</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlInput1">Домен</label>
+                      <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Например: ivangrozniy" aria-label="Например: ivangrozniy" aria-describedby="basic-addon2">
+                        <div class="input-group-append">
+                          <span class="input-group-text d-flex justify-content-center" id="basic-addon2">.work5.ru</span>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                  <div class="d-flex flex-wrap">
+                    <svg width="52" height="52" class="mr-4">
+                      <use xlink:href="img/sprite.svg#icon-alert"></use>
+                    </svg>
+                    <p>
+                      В названии домена разрешены латиница и “-”, запрещается использовать словосочетание Work 5. После создания магазина Вы сможете прикрутить свой домен (например ivangrozniy.ru). Подробнее <a href="#">по ссылке</a></p>
+                  </div>
+                </div>
+                <div class="modal-footer d-flex justify-content-start border-top-0 pl-4 pr-4 pb-4">
+                  <button type="button" class="btn pl-5 pr-5 btn-secondary btn--grey border-0"data-dismiss="modal">
+                    Отмена
+                  </button>
+                  <button type="submit" class="btn pl-5 pr-5 btn-success btn--green border-0">
+                    Создать
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+
+  </body>
+</html>

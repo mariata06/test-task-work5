@@ -1,0 +1,30 @@
+html {
+  height: 100vh;
+}
+
+body {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  color: $color-dim-gray;
+  background-color: $color-alice-blue;
+  height: 100%;
+
+  .col-12 {
+    @media (max-width: 575px) {
+      padding-right: 0;
+    }
+  }
+}
+
+.container {
+  max-width: 1440px;
+  padding: 0;
+  height: 100%;
+}
+
+h1 {
+  color: $color-night-rider;
+  font-size: 20px;
+}

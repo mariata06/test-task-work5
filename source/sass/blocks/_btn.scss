@@ -1,0 +1,43 @@
+.btn {
+  font-size: 12px;
+  line-height: 21px;
+  font-weight: 400;
+
+  @media (max-width: 425px) {
+    font-size: 10px;
+  }
+
+  svg {
+    margin-right: 12px;
+
+    @media (max-width: 425px) {
+      margin-right: 5px;
+      transform: scale(0.8);
+    }
+  }
+}
+
+.btn--green {
+  background-color: $color-emerald;
+
+  svg {
+    width: 15px;
+    height: 18px;
+  }
+
+  span {
+    font-size: 20px;
+    line-height: 21px;
+    font-weight: 700;
+    margin-right: 12px;
+  }
+}
+
+.btn--grey {
+  background-color: $color-dark-grey;
+
+  svg {
+      width: 13px;
+      height: 14px;
+    }
+}

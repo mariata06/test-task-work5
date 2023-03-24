@@ -1,0 +1,26 @@
+.breadcrumbs {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+  display: flex;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
+
+  svg {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 7px;
+    height: 5px;
+    margin: 5px;
+    fill: none;
+  }
+
+  a {
+    color: $color-dim-gray;
+    font-size: 12px;
+    line-height: 21px;
+    font-weight: 500;
+  }
+}

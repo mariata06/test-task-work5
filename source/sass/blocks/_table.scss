@@ -1,0 +1,68 @@
+.table {
+  color: $color-dim-gray;
+
+  a {
+    color: $color-dim-gray;
+    word-break: break-all;
+  }
+
+  @media (max-width: 1200px) {
+    td:last-child {
+      flex-direction: column;
+    }
+  }
+
+  @media (max-width: 600px) {
+    td:last-child {
+      flex-direction: row;
+    }
+  }
+
+  @media (max-width: 425px) {
+    font-size: 12px;
+  }
+
+  thead {
+    @media (max-width: 600px) {
+      display: none;
+    }
+  }
+
+  tr {
+    @media (max-width: 600px) {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  td {
+    @media (max-width: 600px) {
+      position: relative;
+      padding-left: 25%;
+    }
+  }
+
+  td[data-label="Действие"] {
+    @media (max-width: 600px) {
+      align-items: baseline;
+    }
+    @media (max-width: 575px) {
+      align-items: unset;
+    }
+  }
+
+  td::before {
+    @media (max-width: 600px) {
+      content: attr(data-label);
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 25%;
+      padding-top: 12px;
+      padding-left: 8px;
+      text-align: left;
+      font-weight: 700;
+    }
+  }
+}

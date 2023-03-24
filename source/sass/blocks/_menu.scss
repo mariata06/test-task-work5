@@ -1,0 +1,12 @@
+.menu {
+  background-color: $color-white;
+  height: 100vh;
+
+  @media (max-width: 575px) {
+    height: unset;
+  }
+
+  @media (max-width: 425px) {
+    font-size: 12px;
+  }
+}

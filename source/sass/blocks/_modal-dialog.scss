@@ -1,0 +1,36 @@
+.modal-dialog {
+  margin-top: 150px;
+  max-width: 617px;
+  min-height: 444px;
+
+  @media (max-width: 768px) {
+    max-width: unset;
+    width: 90%;
+  }
+
+  .modal-title {
+    color: $color-night-rider;
+    font-size: 20px;
+    line-height: 21px;
+  }
+
+  .modal-body {
+    svg {
+      width: 52px;
+      height: 52px;
+      fill: none;
+    }
+
+    p {
+      font-size: 12px;
+      line-height: 18px;
+      font-weight: 500;
+      width: 488px;
+      color: $color-grey;
+
+      a {
+        color: $color-slate-blue;
+      }
+    }
+  }
+}

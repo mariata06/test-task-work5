@@ -1,0 +1,47 @@
+.form-group {
+  min-width: 240px;
+
+  label {
+    color: $color-night-rider;
+    font-weight: 500;
+  }
+
+  select {
+    font-size: 12px;
+  }
+
+  .form-control {
+    color: $color-grey-3;
+  }
+
+  .input-group-text {
+    width: 100%;
+    background-color: $color-slate-blue;
+    color: $color-white;
+    border: 1px solid $color-slate-blue;
+    text-align: center;
+  }
+
+  .input-group-append {
+    // background-color: $color-slate-blue;
+    // top: 0;
+    // right: 0;
+    width: 30%;
+
+    @media (max-width: 575px) {
+      font-size: 12px;
+    }
+  }
+
+  input[type="email"] {
+    background-color: $color-lavender;
+
+    @media (max-width: 575px) {
+      font-size: 12px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    font-size: 10px;
+  }
+}
